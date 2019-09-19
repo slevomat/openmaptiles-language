@@ -138,7 +138,7 @@
     setStyleMutex = false;
   };
 
-  mapboxgl.Map.prototype.autodetectLanguage = function(opt_fallback) {
-    this.setLanguage(navigator.language.split('-')[0] || opt_fallback || 'native');
+  mapboxgl.Map.prototype.autodetectLanguage = function(opt_fallback, noAlt) {
+    this.setLanguage(navigator.language.split('-')[0] || opt_fallback || 'native', noAlt);
   };
 })();
