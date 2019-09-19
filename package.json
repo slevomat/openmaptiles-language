@@ -1,0 +1,9 @@
+{
+	"name": "slevomat-openmaptiles-language",
+	"version": "1.0.0",
+	"description": "This small javascript library adds support for changing language of OpenMapTiles-based maps displayed with Mapbox GL JS.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/slevomat/openmaptiles-language.git"
+	}
+}
